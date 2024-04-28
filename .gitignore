@@ -9,6 +9,11 @@
 # testing
 /coverage
 
+#  postgress
+/postgres
+
+.env
+
 # next.js
 /.next/
 /out/
