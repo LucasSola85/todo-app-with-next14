@@ -1,14 +1,6 @@
 // Admin Dashboard https://tailwindcomponents.com/component/dashboard-12
 import { Sidebar, WidgetItem } from "@/components";
 import { TopMenu } from "@/components/TopMenu";
-import {
-  CiBellOn,
-  CiBookmarkCheck,
-  CiChat1,
-  CiLogout,
-  CiMenuBurger,
-  CiSearch,
-} from "react-icons/ci";
 
 export default function DashboardLayout({
   children,
@@ -28,7 +20,8 @@ export default function DashboardLayout({
         {/* TODO: Fin del <TopMenu /> */}
 
         {/* TODO: Contenido en el Layout.tsx */}
-        <div className="px-6 pt-6">
+        {/* el fondo es blanco */}
+        <div className="px-6 pt-6 color bg-white p-6 ">
           {/* TODO: src/components <WidgetItem /> */}
           {children}
           {/* TODO: Fin <WidgetItem /> */}

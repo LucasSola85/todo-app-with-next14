@@ -24,7 +24,7 @@ export const SidebarItem = ({ path, icon, title }: Props) => {
           ${ path === pathName ? 'text-white bg-gradient-to-r from-sky-600 to-cyan-400' : ''}
           hover:bg-gradient-to-r hover:from-sky-500 hover:to-cyan-300`}
         >
-          <CiBookmarkCheck size={30} />
+          {icon}
           <span className="-mr-1 font-medium">{ title }</span>
         </Link>
       </li>
